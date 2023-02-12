@@ -43,7 +43,7 @@ class Ippy:
             return 0
 
 
-    def get_netwget_network_ipork_ip(self):
+    def get_network_ip(self):
         for n, z in zip(self.ip_binary_arr, self.cidr_binary_arr):
             if n == '.' or z == '.':
                 self.ip_network_binary_arr.append('.')
